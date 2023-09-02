@@ -1,2 +1,3 @@
 # Dimmer_HCST04_AC_STM32L1discovery_FreeRTOS_essentials
+Code has been developed on top of STM32CubeIDE's code generator to enable touchless AC light control dimming for distance-based operation. The core component essential for recreating this functionality in software resides in the 'main.c' file within the 'Src' folder under the 'Core' directory. Certain aspects, such as TIM (Timer) and other interrupts, may need modification to accommodate a processor exchange.
 The project has been tested successfully with the initial diagram provided in the attached PDF. In the field, the system operates using a BT136 triac, a MOC3021 optocoupler, and a 4N25 optoisolator, constituting a classic AC dimmer circuit.
